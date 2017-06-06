@@ -27,7 +27,8 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/242919
 - [X] What makes a Screen (Layouts & UI Elements)
 - [X] What makes a Screen (Constraint Layout & More UI Elements)
 - [X] User Interaction & MainActivity.java (Simple Random Gallery)
-- [] Inputs and Outputs
+- [ ] Inputs and Outputs
+- [ ] SQLite on Android
 
 ### Advanced topics
 Soon!
@@ -36,4 +37,7 @@ Soon!
 Soon!
 
 ### Collaboration
+Soon!
+
+### References
 Soon!
