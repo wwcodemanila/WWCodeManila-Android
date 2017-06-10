@@ -26,7 +26,7 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/242919
 - [X] Introduction to Java
 - [X] What makes a Screen (Layouts & UI Elements)  [Code Path Layout Tutorial ](https://github.com/codepath/android_guides/wiki/Constructing-View-Layouts)
 - [X] What makes a Screen (Constraint Layout & More UI Elements) [CodeLabs Layout Tutorial ](https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0)
-- [X] User Interaction & MainActivity.java (Simple Random Gallery)
+- [X] User Interaction & MainActivity.java (Simple Random Gallery) [source code](https://iandjx@gitlab.com/wwcodemanila/android-projects/tree-gallery.git)
 - [ ] Inputs and Outputs
 - [ ] SQLite on Android
 
