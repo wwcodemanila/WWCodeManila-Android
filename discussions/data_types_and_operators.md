@@ -67,3 +67,4 @@ Lets try making a method that adds two numbers and returns it the onCreate metho
       return a +b;
     }
 ```
+Remember that the return value should always be the same as the returnType
