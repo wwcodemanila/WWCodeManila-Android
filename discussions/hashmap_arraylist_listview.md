@@ -56,6 +56,7 @@ public class ArrayListDemo {
       System.out.println("Contents of al: " + al);
    }
 }
+```
 
 ## ListView
 The display of elements in a list is a very common pattern in mobile applications. The user sees a list of items and can scroll through them. ListView is the basic widget used in Android that has this functionality. The ListView consumes a collection object, normally an ArrayList as one of its arguments. The ListView will then display the contents of the ArrayList on the Android device.
