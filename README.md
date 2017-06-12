@@ -23,7 +23,7 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/242919
 - [X] Android Studio Setup & Installation - [google drive](https://docs.google.com/document/d/1TxVa_37UBr9K3fCiSUmHb8TYKUxUN3xbkWfwyCAF-bA/edit)
 
 ### Basic concepts
-- [X] Java data types and Operators [discussion](https://gitlab.com/wwcodemanila/WWCodeManila-Android/tree/master/discussions/) [exercise](https://iandjx@gitlab.com/wwcodemanila/primitive-data-types-operators.git)
+- [X] Java data types and Operators [discussion](https://gitlab.com/wwcodemanila/WWCodeManila-Android/tree/master/discussions/) [exercise](https://gitlab.com/wwcodemanila/android-projects/primitive-data-types-operators)
 - [X] What makes a Screen (Layouts & UI Elements)  [Code Path Layout Tutorial ](https://github.com/codepath/android_guides/wiki/Constructing-View-Layouts)
 - [X] What makes a Screen (Constraint Layout & More UI Elements) [CodeLabs Layout Tutorial ](https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0)
 - [X] User Interaction & MainActivity.java (Simple Random Gallery)
