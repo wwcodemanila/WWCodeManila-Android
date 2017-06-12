@@ -17,4 +17,4 @@ Java Primitive Data Types and Operators
 
 There are 7 TODO items in the file.
 
-https://gitlab.com/wwcm_android_code/primitive-data-types-operators
+https://gitlab.com/wwcodemanila/android-projects/primitive-data-types-operators
