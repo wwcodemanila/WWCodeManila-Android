@@ -15,125 +15,175 @@ public Class Player{
 
 }
 ```
-Next thing we will do is define the characteristics of the player that would hold the state of the player
+Next thing we will do is define the characteristics of the player that would hold the state of the player. This characteristics are what we call *Instancce Variables*
 
 ```java
 public Class Player{
-  public String mFullName;
-  public int mHealth;
-  public String mWeapon;
+  private static final String TAG = "Player";
+
+  public String name;
+  public int health;
+  public String weapon;
 }
 ```
 
-The player now has 3 characteristics which are name, health and weapon. The next thing we will add is the
+The player now has 3 characteristics which are name, health and weapon. After this, lets create a constructor for the Player. A constructor is what we call whenever we want to *instantiate* a new object.
 
-
-
-
-## Java Collection Framework
-A collection — sometimes called a container — is simply an object that groups multiple elements into a single unit. Collections are used to store, retrieve, manipulate, and communicate aggregate data. Typically, they represent data items that form a natural group, such as a poker hand (a collection of cards), a mail folder (a collection of letters), or a telephone directory (a mapping of names to phone numbers).
-
-There are several types of collections. It is very important that as a developer that you choose the most appropriate collection for your group of objects. For this discussion we will focus on HashMaps and ArrayLists.
-
-#### Hashmap
-HashMap is used for storing collection of the data in the form of key and value pairs. HashMap is used widely in Android especially in storing, retrieivng and passing information in Activities.
-
-In this example, we have created a hash map where the key is an Integer and the value is the name of the person
 ```java
-  HashMap<Integer,String> hashMap = new HashMap<Integer,String>();  
-  hashMap.put(100,"Amit");  
-  hashMap.put(101,"Vijay");  
-  hashMap.put(102,"Rahul");
-  // https://stackoverflow.com/questions/85190/how-does-the-java-for-each-loop-work
-  for(Map.Entry m:hm.entrySet()){  
-  System.out.println(m.getKey()+" "+m.getValue());  
-```
-```
-Output:102 Rahul
-       100 Amit
-       101 Vijay
-```
-### Arraylist
-The ArrayList implements the List interface which is an ordered Collection (sometimes called a sequence). Lists may contain duplicate elements. ArrayList and Linkedlists are the two general-purpose List implementations, however, the ArrayList is often used because it consumes less resources.
 
-The code example below shows the most common operations when using an ArrayList
+public Player(String name, int health, String weapon) {
+    //... instance Variables
+
+    this.name = name;
+    this.health = health;
+    this.weapon = weapon;
+}
+
+By creating this contructor, we can now create a player object and supplying the parameters name, health, and weapon.
+The next thing we will add is to add what can does this character do.
+
 ```java
-import java.util.*;
-public class ArrayListDemo {
+public Class Player{
+  //... instance Variables
+  //... constructor
 
-   public static void main(String args[]) {
-      // create an array list
-      ArrayList al = new ArrayList();
-      System.out.println("Initial size of al: " + al.size());
+  public void sleep(){
+    this.health = this.health + 5;
+    Log.d(TAG, "Remaining Health: " + this.health);
 
-      // add elements to the array list
-      al.add("C");
-      al.add("A");
-      al.add("E");
-      al.add("B");
-      al.add("D");
-      al.add("F");
-      al.add(1, "A2");
-      System.out.println("Size of al after additions: " + al.size());
+  }
 
-      // display the array list
-      System.out.println("Contents of al: " + al);
+  public void loseHealth(int damage){
+    this.health = this.health - damage
+    Log.d(TAG, "Remaining Health: " + this.health);
+  }
 
-      // Remove elements from the array list
-      al.remove("F");
-      al.remove(2);
-      System.out.println("Size of al after deletions: " + al.size());
-      System.out.println("Contents of al: " + al);
-   }
 }
 ```
 
-## ListView
-The display of elements in a list is a very common pattern in mobile applications. The user sees a list of items and can scroll through them. ListView is the basic widget used in Android that has this functionality. The ListView consumes a collection object, normally an ArrayList as one of its arguments. The ListView will then display the contents of the ArrayList on the Android device.
+In the code snippet above, we can say that a Player has 2 actions. First is to sleep which increases his health to 5. The other action is to lose health which decreases the Player's health based on the damage dealt.
 
-The first order of business is to add a ListView to MainActivity.
-Open res/layout/activity_main.xml. As you may know, this is the file that describes the layout of MainActivity. Add a ListView to MainActivity by inserting the following code snippet inside the RelativeLayout/LinearLayout/ConstraintLayout tag:
-
-```xml
-<ListView
-     android:id="@+id/recipe_list_view"
-     android:layout_height="match_parent"
-     android:layout_width="match_parent">
- </ListView>
- ```
-
- Open MainActivity.java and add an instance variable for your ListView with the following line:
+Now that we have a blueprint/Class for our player, lets return to the MainActivity and *instantiate* a new Player and test out his methods.
 
 ```java
-private ListView mListView;
+
+private static final String TAG = "MainActivity";
+
+@Override
+public void onCreate(Bundle savedInstanceState){
+  super.onCreate(savedInstanceState);
+  setContentView(R.layout.main);
+
+  Player playerOne = new Player("crusader", 100, "Broad Sword");
+
+  playerOne.loseHealth(10);
+  playerOne.loseHealth(20);
+  playerOne.sleep();
+
+}
 ```
 
-Add the following snippet below the existing code inside the onCreate method:
+```
+Output
+Remaining Health: 90
+Remaining Health: 70
+Remaining Health: 75
+```
+
+## Encapsulation
+Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as *data hiding*.
+
+Consider our previous example above of the Player Object in which I'll add more lines.
+```java
+private static final String TAG = "MainActivity";
+
+@Override
+public void onCreate(Bundle savedInstanceState){
+  super.onCreate(savedInstanceState);
+  setContentView(R.layout.main);
+
+  //... previous code
+  playerOne.health = -9999;
+  Log.d(TAG, "Remaining Health: " + this.health);
+
+}
+```
+
+```
+Output:
+Remaining Health: -9999;
+```
+
+By declaring our instance variables in the Player class public allows us to manipulate the player's state without the use of its 2 methods. The resulting health in this case is unrealistic. The advantage of using encapsulation is that constraints and conditions can be placed to ensure that outside class will not be able to access data that its not supposed to.
+To fix this, lets go back to our Player Class and change our instance variables to private.
 
 ```java
-mListView = (ListView) findViewById(R.id.recipe_list_view);
+public Class Player{
+  private static final String TAG = "Player";
 
-// 1
-ArrayList<String> recipeList = new ArrayList();
-
-// 2
-recipList.add("Fried Chicken");
-recipList.add("Spaghetti");
-recipList.add("Cheeseburger");
-
-
-// 3
-ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, recipList);
-mListView.setAdapter(adapter);
+  private String name;
+  private int health;
+  private String weapon;
+}
 ```
 
-So whats happening here.
-1. We initialized a new ArrayList of type String called recipeList.
-2. We added recipe items into the recipeList ArrayList.
-3. This creates and sets a simple adapter for the ListView. The ArrayAdapter takes in the current context, a layout file specifying what each row in the list should look like, and the data that will populate the list as arguments.
+If you try to run the application again notice that you will run to a compile-time error. playerOne.health is now inaccessible in MainActivity. Lets now edit the implementation of our 2 methods to place in constraints.
 
-In this example, we used a simple built in layout file in Android to display our recipeList.
-An ArrayAdapter is an adapter backed by an array of objects. It links the array to the Adapter View.
-The default ArrayAdapter converts an array item into a String object putting it into a TextView. The text view is then displayed in the AdapterView (a ListView for example).
+```java
+public Class Player{
+  //... instance Variables
+  //... constructor
 
-*You'll learn more about Context in future lectures :)
+  public void sleep(){
+    if(this.health < 100){
+      this.health = this.health + 5;
+      Log.d(TAG, "Player recovered 5 health");
+    }
+    Log.d(TAG, "Remaining Health: " + this.health);
+
+  }
+
+  public void loseHealth(int damage){
+    this.health = this.health - damage
+    if(this.health <= 0){
+      Log.d(TAG, this.name + " has died");
+      this.health =0;
+    }
+    Log.d(TAG, "Remaining Health: " + this.health);
+  }
+
+}
+```
+
+We have placed conditions wherein if the player's health is more than or equal to 100 then no health is added and if the player's health goes down lower than 0 then we say that the player has died and set his health to 0 even if the damage is more than his current health.
+
+Let's change the *arguments* in our 2 methods called in the MainActivity
+
+```java
+
+private static final String TAG = "MainActivity";
+
+@Override
+public void onCreate(Bundle savedInstanceState){
+  super.onCreate(savedInstanceState);
+  setContentView(R.layout.main);
+
+  Player playerOne = new Player("crusader", 100, "Broad Sword");
+
+  playerOne.sleep();
+  playerOne.loseHealth(50);
+  playerOne.sleep();
+  playerOne.loseHealth(200);
+
+}
+```
+
+```
+Output
+Remaining Health: 100
+Remaining Health: 50
+Player recovered 5 health
+Remaining Health: 55
+crusader has died
+Remaining Health: 0
+```
