@@ -13,4 +13,6 @@
 # Library
 * [Anko](./kotlin/library_anko.md)
 
-# Exercises
+# Discussion & Exercise
+* [Activities & Intents Part 1](./discussions/activity_intent.md)
+* [Activities & Intents Part 2](./exercises/activity_intent.md)

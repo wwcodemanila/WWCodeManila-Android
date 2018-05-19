@@ -1,0 +1,488 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Activities & Intents Part 1 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../exercises/activity_intent.html" />
+    
+    
+    <link rel="prev" href="../kotlin/library_anko.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    About
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../kotlin/about_kotlin.html">
+            
+                <a href="../kotlin/about_kotlin.html">
+            
+                    
+                    Hello, Kotlin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../kotlin/null_safety.html">
+            
+                <a href="../kotlin/null_safety.html">
+            
+                    
+                    Null Safety
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../kotlin/string_template.html">
+            
+                <a href="../kotlin/string_template.html">
+            
+                    
+                    String Template
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../kotlin/if_expression.html">
+            
+                <a href="../kotlin/if_expression.html">
+            
+                    
+                    If Expression
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../kotlin/when_expression.html">
+            
+                <a href="../kotlin/when_expression.html">
+            
+                    
+                    When Epression
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../kotlin/event_listener.html">
+            
+                <a href="../kotlin/event_listener.html">
+            
+                    
+                    Event Listener
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../kotlin/android_activities.html">
+            
+                <a href="../kotlin/android_activities.html">
+            
+                    
+                    Android Activities
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../kotlin/android_intents.html">
+            
+                <a href="../kotlin/android_intents.html">
+            
+                    
+                    Android Intents
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../kotlin/library_anko.html">
+            
+                <a href="../kotlin/library_anko.html">
+            
+                    
+                    Anko
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter active" data-level="3.1" data-path="activity_intent.html">
+            
+                <a href="activity_intent.html">
+            
+                    
+                    Activities & Intents Part 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../exercises/activity_intent.html">
+            
+                <a href="../exercises/activity_intent.html">
+            
+                    
+                    Activities & Intents Part 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Activities & Intents Part 1</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="todays-activity-start-an-intent">Today&apos;s Activity: Start an Intent</h1>
+<h3 id="hello-kotlin"><strong>Hello, Kotlin!</strong></h3>
+<ol>
+<li><p>Create Hello, World! App<br><img src="../assets/hello_world_app.png" alt="Hello, World"></p>
+</li>
+<li><p>Project structure should look something like this:<br><img src="../assets/basic_structure_hello_android.png" alt="Hello, World"></p>
+</li>
+<li><p>The files that are of main concern for us are:</p>
+<ul>
+<li>AndroidManifest.xml</li>
+<li>MainActivity</li>
+<li><p>activity_main.xml</p>
+<p>** which were all auto-generated when we created the project</p>
+</li>
+</ul>
+</li>
+<li><p>Notice that intent category for MainActivity is <code>Launcher</code>. This effectively makes <code>MainActivity</code>, the main <code>entry point</code> of the app (i.e. if user clicks on the icon, it will launch this activity)</p>
+</li>
+<li><p>Create a new empty activity<br><img src="../assets/new_empty_activity.png" alt="Create New Empty Activity"></p>
+</li>
+<li><p>Configure Activity<br><img src="../assets/configure_activity.png" alt="Configure Activity"></p>
+</li>
+<li><p>Notice that this generated SecondActivity and activity_second.xml. It has also defined the activity in the AndroidManifest.xml<br><img src="../assets/new_generated_activity.png" alt="Generated Activity"></p>
+</li>
+</ol>
+<h3 id="start-an-activity-with-an-intent"><strong>Start an Activity with an Intent</strong></h3>
+<ol>
+<li>Open <code>activity_main.xml</code> and add an id to the TextView. Example: <code>text_hello_world</code></li>
+</ol>
+<pre><code class="lang-xml"><span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span> encoding=<span class="hljs-string">&quot;utf-8&quot;</span><span class="hljs-meta">?&gt;</span></span>
+<span class="hljs-tag">&lt;<span class="hljs-name">android.support.constraint.ConstraintLayout</span> <span class="hljs-attr">xmlns:android</span>=<span class="hljs-string">&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="hljs-attr">xmlns:app</span>=<span class="hljs-string">&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="hljs-attr">xmlns:tools</span>=<span class="hljs-string">&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="hljs-attr">android:layout_width</span>=<span class="hljs-string">&quot;match_parent&quot;</span>
+    <span class="hljs-attr">android:layout_height</span>=<span class="hljs-string">&quot;match_parent&quot;</span>
+    <span class="hljs-attr">tools:context</span>=<span class="hljs-string">&quot;com.allsortsofrandom.todaysactivity.MainActivity&quot;</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">TextView</span>
+        <span class="hljs-attr">android:id</span>=<span class="hljs-string">&quot;@+id/text_hello_world&quot;</span>
+        <span class="hljs-attr">android:layout_width</span>=<span class="hljs-string">&quot;wrap_content&quot;</span>
+        <span class="hljs-attr">android:layout_height</span>=<span class="hljs-string">&quot;wrap_content&quot;</span>
+        <span class="hljs-attr">android:text</span>=<span class="hljs-string">&quot;Hello World!&quot;</span>
+        <span class="hljs-attr">app:layout_constraintBottom_toBottomOf</span>=<span class="hljs-string">&quot;parent&quot;</span>
+        <span class="hljs-attr">app:layout_constraintLeft_toLeftOf</span>=<span class="hljs-string">&quot;parent&quot;</span>
+        <span class="hljs-attr">app:layout_constraintRight_toRightOf</span>=<span class="hljs-string">&quot;parent&quot;</span>
+        <span class="hljs-attr">app:layout_constraintTop_toTopOf</span>=<span class="hljs-string">&quot;parent&quot;</span> /&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">android.support.constraint.ConstraintLayout</span>&gt;</span>
+</code></pre>
+<ol>
+<li>Open <code>activity_second.xml</code> and add a TextView. You can copy and paste the TextView from <code>activity_main.xml</code></li>
+</ol>
+<pre><code class="lang-xml"><span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span> encoding=<span class="hljs-string">&quot;utf-8&quot;</span><span class="hljs-meta">?&gt;</span></span>
+<span class="hljs-tag">&lt;<span class="hljs-name">android.support.constraint.ConstraintLayout</span> <span class="hljs-attr">xmlns:android</span>=<span class="hljs-string">&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="hljs-attr">xmlns:app</span>=<span class="hljs-string">&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="hljs-attr">xmlns:tools</span>=<span class="hljs-string">&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="hljs-attr">android:layout_width</span>=<span class="hljs-string">&quot;match_parent&quot;</span>
+    <span class="hljs-attr">android:layout_height</span>=<span class="hljs-string">&quot;match_parent&quot;</span>
+    <span class="hljs-attr">tools:context</span>=<span class="hljs-string">&quot;com.allsortsofrandom.todaysactivity.SecondActivity&quot;</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">TextView</span>
+        <span class="hljs-attr">android:id</span>=<span class="hljs-string">&quot;@+id/text_hello_second_activity&quot;</span>
+        <span class="hljs-attr">android:layout_width</span>=<span class="hljs-string">&quot;wrap_content&quot;</span>
+        <span class="hljs-attr">android:layout_height</span>=<span class="hljs-string">&quot;wrap_content&quot;</span>
+        <span class="hljs-attr">android:text</span>=<span class="hljs-string">&quot;Hello Second Activity!&quot;</span>
+        <span class="hljs-attr">app:layout_constraintBottom_toBottomOf</span>=<span class="hljs-string">&quot;parent&quot;</span>
+        <span class="hljs-attr">app:layout_constraintLeft_toLeftOf</span>=<span class="hljs-string">&quot;parent&quot;</span>
+        <span class="hljs-attr">app:layout_constraintRight_toRightOf</span>=<span class="hljs-string">&quot;parent&quot;</span>
+        <span class="hljs-attr">app:layout_constraintTop_toTopOf</span>=<span class="hljs-string">&quot;parent&quot;</span> /&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">android.support.constraint.ConstraintLayout</span>&gt;</span>
+</code></pre>
+<ol>
+<li>Assign an id to the TextView. Example: <code>text_hello_second_activity</code></li>
+<li>One way to trigger a redirect to a new activity/ screen is through a click event. Add an onClickListener in MainActivity</li>
+</ol>
+<pre><code class="lang-kotlin"><span class="hljs-keyword">package</span> com.allsortsofrandom.todaysactivity
+
+<span class="hljs-keyword">import</span> android.content.Intent
+<span class="hljs-keyword">import</span> android.support.v7.app.AppCompatActivity
+<span class="hljs-keyword">import</span> android.os.Bundle
+<span class="hljs-keyword">import</span> kotlinx.android.synthetic.main.activity_main.*
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MainActivity</span> : <span class="hljs-type">AppCompatActivity</span></span>() {
+
+    <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">onCreate</span><span class="hljs-params">(savedInstanceState: <span class="hljs-type">Bundle?</span>)</span> {</span>
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        text_hello_world.setOnClickListener{
+            <span class="hljs-variable"><span class="hljs-keyword">val</span> secondActivityIntent</span> = Intent(this, SecondActivity::<span class="hljs-class"><span class="hljs-keyword">class</span>.<span class="hljs-title">java</span>)</span>
+            startActivity(secondActivityIntent)
+        }
+    }
+}
+</code></pre>
+<ol>
+<li>Run the app<br><img src="../assets/hello_second_activity.png" alt="Hello, Second Activity"></li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../kotlin/library_anko.html" class="navigation navigation-prev " aria-label="Previous page: Anko">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../exercises/activity_intent.html" class="navigation navigation-next " aria-label="Next page: Activities & Intents Part 2">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Activities & Intents Part 1","level":"3.1","depth":1,"next":{"title":"Activities & Intents Part 2","level":"3.2","depth":1,"path":"exercises/activity_intent.md","ref":"./exercises/activity_intent.md","articles":[]},"previous":{"title":"Anko","level":"2.1","depth":1,"path":"kotlin/library_anko.md","ref":"./kotlin/library_anko.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"discussions/activity_intent.md","mtime":"2018-05-19T05:27:09.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-19T04:42:05.478Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
