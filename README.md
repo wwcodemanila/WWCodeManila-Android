@@ -8,7 +8,7 @@ If you have questions, please feel free to ask and participate on our [discussio
 board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/24291952).
 
 ## Study Group Setup
-* Resources such as notes, exercises and samples will be uploaded here and in [google drive] (https://drive.google.com/drive/u/0/folders/0B5e6z53Ajo7AcFFzRGVOZk1qSnM)
+* Resources such as notes, exercises and samples will be uploaded here and in [google drive](https://drive.google.com/drive/u/0/folders/0B5e6z53Ajo7AcFFzRGVOZk1qSnM)
 * Our 1.5 hours will be divided randomly into:
     - Introduction/Getting to know first-timers
     - Discuss questions/issues raised on discussion board
@@ -43,5 +43,9 @@ Soon!
 Soon!
 
 ### References
-- [ ] [Kotlin Playground](https://try.kotlinlang.org)
-- [ ] [Codelabs](https://codelabs.developers.google.com)
+* [Kotlin Playground](https://try.kotlinlang.org)
+* [Codelabs](https://codelabs.developers.google.com)
+* [Google Samples](https://github.com/googlesamples?utf8=✓&q=k&type=&language=)
+    - [Topeka for Android](https://github.com/googlesamples/android-topeka) A fun to play quiz that showcases material design on Android
+* [Android Example 365](https://androidexample365.com)
+* [Android Developer's Blog](https://android-developers.googleblog.com/2015/06/more-material-design-with-topeka-for_16.html)

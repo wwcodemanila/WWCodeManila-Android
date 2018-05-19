@@ -7,8 +7,10 @@
 * [If Expression](./kotlin/if_expression.md)
 * [When Epression](./kotlin/when_expression.md)
 * [Event Listener](./kotlin/event_listener.md)
-* [Android Activity](./kotlin/android_activities.md)
+* [Android Activities](./kotlin/android_activities.md)
 * [Android Intents](./kotlin/android_intents.md)
 
 # Library
 * [Anko](./kotlin/library_anko.md)
+
+# Exercises
