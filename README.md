@@ -37,10 +37,11 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/242919
 Soon!
 
 ### Kotlin
-Soon!
+[Kotlin notes](./kotlin)
 
 ### Collaboration
 Soon!
 
 ### References
-Soon!
+- [ ] [Kotlin Playground](https://try.kotlinlang.org)
+- [ ] [Codelabs](https://codelabs.developers.google.com)
