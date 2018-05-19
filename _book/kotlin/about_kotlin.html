@@ -1,0 +1,400 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Hello, Kotlin · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="null_safety.html" />
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    About
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="about_kotlin.html">
+            
+                <a href="about_kotlin.html">
+            
+                    
+                    Hello, Kotlin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="null_safety.html">
+            
+                <a href="null_safety.html">
+            
+                    
+                    Null Safety
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="string_template.html">
+            
+                <a href="string_template.html">
+            
+                    
+                    String Template
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="if_expression.html">
+            
+                <a href="if_expression.html">
+            
+                    
+                    If Expression
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="when_expression.html">
+            
+                <a href="when_expression.html">
+            
+                    
+                    When Epression
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="event_listener.html">
+            
+                <a href="event_listener.html">
+            
+                    
+                    Event Listener
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="android_activities.html">
+            
+                <a href="android_activities.html">
+            
+                    
+                    Android Activity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="android_intents.html">
+            
+                <a href="android_intents.html">
+            
+                    
+                    Android Intents
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="library_anko.html">
+            
+                <a href="library_anko.html">
+            
+                    
+                    Anko
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Hello, Kotlin</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="what-is-kotlin">What is Kotlin?</h1>
+<ul>
+<li>A JVM language (compiles to Java bytecode; runs on the Java Virtual Machine)</li>
+<li>Has support for JavaScript (write Kotlin code and generate JavaScript code)</li>
+</ul>
+<h1 id="fundamentals">Fundamentals</h1>
+<pre><code class="lang-kotlin"><span class="hljs-comment">//Kotlin</span>
+<span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">main</span><span class="hljs-params">(args: <span class="hljs-type">Array&lt;String&gt;</span>)</span> {</span>
+    println(<span class="hljs-string">&quot;Hello, World!&quot;</span>)
+}
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-comment">//Java</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HelloWorld</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        System.out.prntln(<span class="hljs-string">&quot;Hello, World!&quot;</span>);
+    }
+}
+</code></pre>
+<ul>
+<li>If there are no classes, Kotlin compiler generates the class.</li>
+<li>The name of the class follows the name of the file.</li>
+<li>The <code>println()</code> function calls <code>System.out.println()</code> internally.</li>
+</ul>
+<h1 id="variables">Variables</h1>
+<ol>
+<li><code>val</code> is immutable; read-only; like <code>final</code> in Java</li>
+<li><code>var</code> is mutable</li>
+</ol>
+<pre><code class="lang-kotlin"><span class="hljs-variable"><span class="hljs-keyword">val</span> x</span> = <span class="hljs-number">1</span> <span class="hljs-comment">// Int is inferred</span>
+x = <span class="hljs-number">2</span> <span class="hljs-comment">// compilatin error: x cannot be reassigned</span>
+
+<span class="hljs-variable"><span class="hljs-keyword">var</span> y</span> = <span class="hljs-number">2</span>
+y = <span class="hljs-number">3</span> <span class="hljs-comment">//y can be reassigned</span>
+</code></pre>
+<pre><code>Data Type   |  Example                                  | Description               |
+----------- | ----------------------------------------- | ------------------------- |
+Int         |  var x: Int = 20                          |                           |
+Float       |  var pi: Float = 3.142                    |                           |
+Double      |  var pi: Double = 3.142                   |                           |
+Boolean     |  var isHappy = true                       |                           |
+String      |  val idiom = &quot;in a nutshell&quot;              | sequence of characters    |
+Char        |  val letter: Char = &apos;A&apos;                   |                           |
+Array       |  val days arrayOf(&quot;Mon&quot;, &quot;Tue&quot;, &quot;Wed&quot;)    |                           |
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: About">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="null_safety.html" class="navigation navigation-next " aria-label="Next page: Null Safety">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Hello, Kotlin","level":"1.2","depth":1,"next":{"title":"Null Safety","level":"1.3","depth":1,"path":"kotlin/null_safety.md","ref":"./kotlin/null_safety.md","articles":[]},"previous":{"title":"About","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"kotlin/about_kotlin.md","mtime":"2018-05-19T01:06:08.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-19T01:05:00.025Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

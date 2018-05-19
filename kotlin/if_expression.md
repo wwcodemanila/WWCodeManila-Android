@@ -1,4 +1,4 @@
-# if expression
+# If Expression
 
 - `expression` returns a value
 - no need for ternary operations

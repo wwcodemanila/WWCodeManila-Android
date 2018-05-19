@@ -1,4 +1,4 @@
-# null safety 
+# Null Safety 
 
 - In Kotlin, we need to explicitly specify that something is nullable
 

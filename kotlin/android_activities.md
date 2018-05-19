@@ -1,7 +1,8 @@
-# android activities
+# Android Activities
 
 - An activity represents user action
-Examples:
+
+#### Examples:
 1. Add Todo
 2. Edit Todo
 3. View Todo List

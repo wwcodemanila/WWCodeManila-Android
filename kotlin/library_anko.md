@@ -1,4 +1,4 @@
-# what is Anko?
+# What is Anko?
 
 - a Kotlin library for Android Application development
 

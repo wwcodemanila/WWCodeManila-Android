@@ -1,4 +1,4 @@
-# string template
+# String Template
 
 - The results of the template expressions are concatenated into the string
 

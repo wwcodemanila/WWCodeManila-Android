@@ -1,4 +1,4 @@
-# what is kotlin
+# What is Kotlin?
 
 - A JVM language (compiles to Java bytecode; runs on the Java Virtual Machine)
 - Has support for JavaScript (write Kotlin code and generate JavaScript code)

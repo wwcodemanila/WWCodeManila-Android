@@ -1,4 +1,4 @@
-# when expression 
+# When Expression 
 
 - `when` in kotlin; `switch` in Java
 
