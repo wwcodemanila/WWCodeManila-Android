@@ -1,5 +1,5 @@
 - Getting Started
-  - [About the Study Group](README.md)
+  - [Welcome!](README.md)
   - [Installation](getting_started/install_tools.md)
   
 
