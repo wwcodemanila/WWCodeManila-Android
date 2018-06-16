@@ -1,19 +1,15 @@
 ## Official Documentation
 
-Reading software documentation is part of being a software developer. You can find information about built-in methods in Ruby and Ruby on Rails.
+Reading software documentation is part of being a software developer.
 
-- Ruby Official Documentation: http://ruby-doc.org/
-- Ruby on Rails Guides: http://guides.rubyonrails.org/
+* [Android Developer Guides](https://developer.android.com/guide/)
+* [Kotlin](http://kotlinlang.org/docs/reference/)
 
-## Online tutorials
+### References
 
-You can also refer to these online tutorials to help you get started.
-
-- http://tryruby.org/
-- http://railsforzombies.org/
-- https://www.codecademy.com/learn/learn-rails
-- https://www.railstutorial.org/book
-
-## Useful resources
-
-- [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
+* [Kotlin Playground](https://try.kotlinlang.org)
+* [Codelabs](https://codelabs.developers.google.com)
+* [Google Samples](https://github.com/googlesamples?utf8=✓&q=k&type=&language=)
+    - [Topeka for Android](https://github.com/googlesamples/android-topeka) A fun to play quiz that showcases material design on Android
+* [Android Example 365](https://androidexample365.com)
+* [Android Developer's Blog](https://android-developers.googleblog.com/2015/06/more-material-design-with-topeka-for_16.html)

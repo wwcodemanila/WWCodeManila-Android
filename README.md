@@ -20,14 +20,14 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/242919
 ## Our Milestones
 
 ### Getting started
-- [X] Android Studio Setup & Installation - [google drive](https://docs.google.com/document/d/1TxVa_37UBr9K3fCiSUmHb8TYKUxUN3xbkWfwyCAF-bA/edit)
+- [ ] Android Studio Setup & Installation - [google drive](https://docs.google.com/document/d/1TxVa_37UBr9K3fCiSUmHb8TYKUxUN3xbkWfwyCAF-bA/edit)
 
 ### Basic concepts
-- [X] Java data types and Operators [discussion](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/discussions/data_types_and_operators.md) [exercise](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/exercises/data_types_and_operators/instructions.md)
+- [ ] Java data types and Operators [discussion](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/discussions/data_types_and_operators.md) [exercise](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/exercises/data_types_and_operators/instructions.md)
 - [ ] Basic Object Oriented Programming and Encapsulation [discussion](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/discussions/oop_encapsulation.md) [exercise](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/exercises/oop_encapsulation/instructions.md)
-- [X] What makes a Screen (Layouts & UI Elements)  [Code Path Layout Tutorial ](https://github.com/codepath/android_guides/wiki/Constructing-View-Layouts)
-- [X] What makes a Screen (Constraint Layout & More UI Elements) [CodeLabs Layout Tutorial ](https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0)
-- [X] User Interaction & MainActivity.java (Simple Random Gallery) [source code](https://gitlab.com/wwcodemanila/android-projects/tree-gallery)
+- [ ] What makes a Screen (Layouts & UI Elements)  [Code Path Layout Tutorial ](https://github.com/codepath/android_guides/wiki/Constructing-View-Layouts)
+- [ ] What makes a Screen (Constraint Layout & More UI Elements) [CodeLabs Layout Tutorial ](https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0)
+- [ ] User Interaction & MainActivity.java (Simple Random Gallery) [source code](https://gitlab.com/wwcodemanila/android-projects/tree-gallery)
 - [ ] HashMaps, ArrayLists and ListView [discussion](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/discussions/data_types_and_operators.md) [exercise](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/exercises/hashmap_arraylist_listview/instructions.md)
 - [ ] Inputs and Outputs
 - [ ] SQLite on Android
@@ -42,10 +42,24 @@ Soon!
 ### Collaboration
 Soon!
 
-### References
-* [Kotlin Playground](https://try.kotlinlang.org)
-* [Codelabs](https://codelabs.developers.google.com)
-* [Google Samples](https://github.com/googlesamples?utf8=✓&q=k&type=&language=)
-    - [Topeka for Android](https://github.com/googlesamples/android-topeka) A fun to play quiz that showcases material design on Android
-* [Android Example 365](https://androidexample365.com)
-* [Android Developer's Blog](https://android-developers.googleblog.com/2015/06/more-material-design-with-topeka-for_16.html)
+## Helping out
+
+### Volunteer
+
+Attend one of our [events](https://bit.ly/wwcodemanilameetups) and talk to us! :smile:
+
+### Donate
+
+Even a little amount is a big help for us to achieve our mission of inspiring women to excel in tech careers. :heart:
+
+You can donate at our [Open Collective](https://opencollective.com/wwcodemanila).
+
+### Hosting
+
+Do you want to host one of our study groups? Email us at **manila@womenwhocode.com**.
+
+## Contributors
+- Christine Balanaa ([@iamsywid](https://github.com/iamsywid))
+- Clau Yagyagan ([@dualcnhq](https://github.com/dualcnhq))
+- Ian de Jesus ([@iandjx](https://github.com/iandjx))
+- Michelle Aca ([@MichAca](https://github.com/MichAca))
