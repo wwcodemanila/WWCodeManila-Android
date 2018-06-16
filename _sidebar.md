@@ -1,14 +1,13 @@
 - Getting Started
   - [Welcome!](README.md)
   - [Installation](getting_started/install_tools.md)
-  
 
 - Women Who Code Manila
   - [About WWCode Manila](wwcodemanila/about.md)
   - [Study Groups](wwcodemanila/study_groups.md)
 
-- Collaboration and Sharing Your Work
-  - Let's Git Started
+- Sharing Your Work
+  - Let's Git Started :soon:
 
 - Hello, Kotlin
   - [About Kotlin](kotlin/about_kotlin.md)
@@ -17,11 +16,15 @@
   - [If expression](kotlin/if_expression.md)
   - [When expression](kotlin/when_expression.md)
 
-- Android Studio
+- Android Studio :soon:
 
-- Hello, Android
+- Hello, Android :soon:
   - API Version
   - Layout
+    - Linear
+    - Relative
+    - Constraint
+  - Event Listeners
   - Intents
     - Camera
     - Gallery
@@ -29,14 +32,14 @@
   - Manifest
     - Permissions
 
-- Database
+- Database :soon:
   - SQLite
 
-- Best Practices
+- Best Practices :soon:
 
-- Release and Deployment
+- Release and Deployment :soon:
 
-- Libraries
+- Libraries :soon:
   - Anko
   - API Integration
     - Retrofit
@@ -47,11 +50,11 @@
   - Image Loading
     - Glide
 
-- Advanced Topics
+- Advanced Topics :soon:
   - Debugging
   - Game Development
 
-- Projects
+- Projects :soon:
   - Todo App
   - Food App
   - Travel App

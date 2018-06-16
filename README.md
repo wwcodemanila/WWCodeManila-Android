@@ -24,24 +24,15 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/242919
 - [ ] Android Studio Setup & Installation - [google drive](https://docs.google.com/document/d/1TxVa_37UBr9K3fCiSUmHb8TYKUxUN3xbkWfwyCAF-bA/edit)
 
 ### Basic concepts
-- [ ] Java data types and Operators [discussion](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/discussions/data_types_and_operators.md) [exercise](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/exercises/data_types_and_operators/instructions.md)
-- [ ] Basic Object Oriented Programming and Encapsulation [discussion](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/discussions/oop_encapsulation.md) [exercise](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/exercises/oop_encapsulation/instructions.md)
+- [ ] Java data types and Operators [discussion](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/discussions/data_types_and_operators.md) [exercise](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/exercises/data_types_and_operators/instructions.md)
+- [ ] Basic Object Oriented Programming and Encapsulation [discussion](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/discussions/oop_encapsulation.md) [exercise](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/exercises/oop_encapsulation/instructions.md)
 - [ ] What makes a Screen (Layouts & UI Elements)  [Code Path Layout Tutorial ](https://github.com/codepath/android_guides/wiki/Constructing-View-Layouts)
 - [ ] What makes a Screen (Constraint Layout & More UI Elements) [CodeLabs Layout Tutorial ](https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0)
-- [ ] User Interaction & MainActivity.java (Simple Random Gallery) [source code](https://gitlab.com/wwcodemanila/android-projects/tree-gallery)
-- [ ] HashMaps, ArrayLists and ListView [discussion](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/discussions/data_types_and_operators.md) [exercise](https://gitlab.com/wwcodemanila/WWCodeManila-Android/blob/master/exercises/hashmap_arraylist_listview/instructions.md)
+- [ ] User Interaction & MainActivity.java (Simple Random Gallery) [source code](https://github.com/wwcodemanila/WWCodeManila-Android/tree/master/code_snippets/simple_random_gallery)
+- [ ] HashMaps, ArrayLists and ListView [discussion](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/discussions/data_types_and_operators.md) [exercise](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/exercises/hashmap_arraylist_listview/instructions.md)
 - [ ] Inputs and Outputs
 - [ ] SQLite on Android
 - [ ] Realm as an alternative to SQLite
-
-### Advanced topics
-Soon!
-
-### Kotlin
-[Kotlin notes](./kotlin)
-
-### Collaboration
-Soon!
 
 ## Relevant links
 

@@ -50,4 +50,3 @@ String      |  val idiom = "in a nutshell"              | sequence of characters
 Char        |  val letter: Char = 'A'                   |                           |
 Array       |  val days arrayOf("Mon", "Tue", "Wed")    |                           |
 ```
-

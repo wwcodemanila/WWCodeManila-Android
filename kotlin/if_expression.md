@@ -9,5 +9,4 @@ val remarks = if (taskDone) "Great!" else "Keep it up!"
 println(remarks)
 ```
 
-More information about control flow here:
-https://kotlinlang.org/docs/reference/control-flow.html
+More information about control flow [here](https://kotlinlang.org/docs/reference/control-flow.html)

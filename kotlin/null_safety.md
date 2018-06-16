@@ -1,6 +1,6 @@
-# Null Safety 
+### Null Safety {docsify-ignore-all}
 
-- In Kotlin, we need to explicitly specify that something is nullable
+> In Kotlin, we need to explicitly specify that something is nullable
 
 ```kotlin
 var thisVariableIsNullSafe: String = "Null safe"
@@ -14,5 +14,4 @@ thisVariableCanBeNull = null //ok
 println(thisVariableCanBeNull.length) // compilation error
 ```
 
-More information about null safety here:
-https://kotlinlang.org/docs/reference/null-safety.html
+More information about null safety [here](https://kotlinlang.org/docs/reference/null-safety.html)

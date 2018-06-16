@@ -16,5 +16,4 @@ val quoteOfTheDay = when(day) {
 println("$day?! $quoteOfTheDay")
 ```
 
-More information about control flow here:
-https://kotlinlang.org/docs/reference/control-flow.html
+More information about control flow [here](https://kotlinlang.org/docs/reference/control-flow.html)
