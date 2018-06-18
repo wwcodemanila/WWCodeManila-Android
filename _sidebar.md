@@ -29,9 +29,10 @@
     - [TextView](android/textview.md)
   - Controls
     - [Buttons](android/button.md)
-  - Event Listeners
+  - [Event Listeners](android/event_listener.md)
     - [OnClickListener](android/extensions_onclicklistener.md)
-  - Intents
+  - [Activities](android/android_activities.md)
+  - [Intents](android/android_intents.md)
     - Camera
     - Gallery
     - Contacts
