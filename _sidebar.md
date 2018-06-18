@@ -22,7 +22,7 @@
   - API Version
   - Layout
     - [Linear](android/linear_layout.md)
-    - [Relative](android/relative.md)
+    - [Relative](android/relative_layout.md)
     - Constraint
     - [Views](android/view.md)
   - Text 
