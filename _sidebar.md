@@ -17,10 +17,9 @@
   - [When expression](kotlin/when_expression.md)
 
 - Android Studio :soon:
-
+  - [Folder Structure](android/folder_structure.md)
 - Hello, Android :soon:
   - API Version
-  - [Folder Structure](android/folder_structure.md)
   - Layout
     - [Linear](android/linear_layout.md)
     - [Relative](android/relative.md)
