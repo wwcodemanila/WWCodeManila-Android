@@ -28,4 +28,4 @@
 
 
 	
- ![Alt Text](https://github.com/MichAca/WWCode-Android-Study-Group/blob/master/June%2016%2C%202018/_media/media_android/folder-structure.png "folder structure")
+ ![Alt Text](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/_media/media_android/folder-structure.png "folder structure")
