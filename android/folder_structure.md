@@ -1,7 +1,7 @@
 
 # Android Studio Folder Structure
 
-## app folder
+## app folder {docsify-ignore}
 
 **manifest**	- contains the AndroidManifest.xml file which contains all the information about your app’s structure and 
 		functionality. It includes all the activities your app uses, the services it provides, any database 			content it makes available via a content provider, and any intents it processes.
