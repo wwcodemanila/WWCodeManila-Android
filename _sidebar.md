@@ -30,7 +30,7 @@
   - Controls
     - [Buttons](android/button.md)
   - Event Listeners
-    - [OnClickListener](android/extentions_onclicklistener.md)
+    - [OnClickListener](android/extensions_onclicklistener.md)
   - Intents
     - Camera
     - Gallery
