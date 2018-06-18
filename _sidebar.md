@@ -16,9 +16,9 @@
   - [If expression](kotlin/if_expression.md)
   - [When expression](kotlin/when_expression.md)
 
-- Android Studio :soon:
+- Android Studio 
   - [Folder Structure](android/folder_structure.md)
-- Hello, Android :soon:
+- Hello, Android
   - API Version
   - Layout
     - [Linear](android/linear_layout.md)
@@ -60,7 +60,7 @@
   - Debugging
   - Game Development
 
-- Projects :soon:
+- Projects 
   - [Court Counter App](projects/court_counter.md)
   - Todo App
   - Food App
