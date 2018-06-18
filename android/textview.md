@@ -5,7 +5,7 @@
 
 
 
-![Alt Text](https://github.com/MichAca/WWCode-Android-Study-Group/blob/master/June%2016%2C%202018/_media/media_android/android-studio-hello-world.png)
+![Alt Text](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/_media/media_android/android-studio-hello-world.png "Hello World App")
 
 
 Reference: [TextView](https://developer.android.com/reference/android/widget/TextView)
