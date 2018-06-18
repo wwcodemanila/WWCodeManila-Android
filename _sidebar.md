@@ -20,11 +20,18 @@
 
 - Hello, Android :soon:
   - API Version
+  - [Folder Structure](android/folder_structure.md)
   - Layout
-    - Linear
-    - Relative
+    - [Linear](android/linear_layout.md)
+    - [Relative](android/relative.md)
     - Constraint
+    - [Views](android/view.md)
+  - Text 
+    - [TextView](android/textview.md)
+  - Controls
+    - [Buttons](android/button.md)
   - Event Listeners
+    - [OnClickListener](android/extentions_onclicklistener.md)
   - Intents
     - Camera
     - Gallery
@@ -55,6 +62,7 @@
   - Game Development
 
 - Projects :soon:
+  - [Court Counter App](projects/court_counter.md)
   - Todo App
   - Food App
   - Travel App
