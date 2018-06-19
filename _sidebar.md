@@ -55,6 +55,7 @@
     - [Fuel](https://github.com/kittinunf/Fuel)
   - Database / ORM library
     - [Realm](https://github.com/realm/realm-java)
+    - [SQLBrite](https://github.com/square/sqlbrite)
   - Image Loading
     - [Glide](https://github.com/bumptech/glide)
     - [Picasso](https://github.com/square/picasso)
