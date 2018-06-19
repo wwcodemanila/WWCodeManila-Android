@@ -47,15 +47,17 @@
 - Release and Deployment :soon:
 
 - Libraries :soon:
-  - Anko
+  - [Anko](https://github.com/Kotlin/anko)
   - API Integration
-    - Retrofit
-    - Volley
-    - OkHttp
+    - [Retrofit](https://github.com/square/retrofit)
+    - [Volley](https://github.com/google/volley)
+    - [OkHttp](https://github.com/square/okhttp)
+    - [Fuel](https://github.com/kittinunf/Fuel)
   - Database / ORM library
-    - Realm
+    - [Realm](https://github.com/realm/realm-java)
   - Image Loading
-    - Glide
+    - [Glide](https://github.com/bumptech/glide)
+    - [Picasso](https://github.com/square/picasso)
 
 - Advanced Topics :soon:
   - Debugging
