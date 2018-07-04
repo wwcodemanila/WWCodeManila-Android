@@ -1,5 +1,5 @@
 
-# Using Kotlin Android Extensions
+# Using Kotlin Android Extensions {docsify-ignore-all}
 
 ## Configuring the Dependency
 
@@ -23,3 +23,4 @@ If we want to call the synthetic properties on View, we should also import kotli
 
 
 Reference: [Kotlin Android Extensions](https://kotlinlang.org/docs/tutorials/android-plugin.html)
+
