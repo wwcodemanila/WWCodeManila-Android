@@ -26,6 +26,5 @@
 		These are colors, dimensions, styles, and strings
 
 
-
-	
- ![alt text](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/_media/media_android/folder-structure.png "folder structure")
+![Folder Structure](../_media/media_android/folder-structure.png)
+ 
