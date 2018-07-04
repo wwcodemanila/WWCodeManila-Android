@@ -5,8 +5,7 @@
 
 The position of each view can be specified as relative to sibling elements (such as to the left-of or below another view) or in positions relative to the parent RelativeLayout area (such as aligned to the bottom, left or center).
 
-
-![Alt Text](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/_media/media_android/relativelayout.png "Relative Layout")
+![Relative Layout](../_media/media_android/relativelayout.png)
 
 
 Reference: [Relative Layout](https://developer.android.com/guide/topics/ui/layout/relative)
