@@ -69,7 +69,7 @@
   - Game Development
 
 - Projects 
-  - [Court Counter App](projects/court_counter.md)
+  - [Court Counter App](projects/Court-Counter-Android-App/README.md)
   - Todo App
   - Food App
   - Travel App
