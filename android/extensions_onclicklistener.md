@@ -21,6 +21,4 @@ Thus if the layout filename is activity_main.xml, we'd import kotlinx.android.sy
 
 If we want to call the synthetic properties on View, we should also import kotlinx.android.synthetic.main.activity_main.view.*.
 
-
 Reference: [Kotlin Android Extensions](https://kotlinlang.org/docs/tutorials/android-plugin.html)
-
