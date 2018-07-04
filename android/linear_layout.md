@@ -5,8 +5,8 @@
 
 You can specify the layout direction with the *android:orientation attribute*.
 
+![Linear Layout](../_media/media_android/android-linear-layout.png)
 
-![Alt Text](https://github.com/wwcodemanila/WWCodeManila-Android/blob/master/_media/media_android/android-linear-layout.png "Linear Layout")
 
 
 Reference: [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear) 
