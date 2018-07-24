@@ -8,6 +8,7 @@
 
 - Sharing Your Work
   - Let's Git Started
+    - [Pro Git by Scott Chacon and Ben Straub ](https://git-scm.com/book/en/v2)
   - Git Graphical Interface
     - [Tortoise](https://code.google.com/p/tortoisegit)
     - [Source Tree](https://www.sourcetreeapp.com)

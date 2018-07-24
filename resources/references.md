@@ -15,3 +15,7 @@ Reading software documentation is part of being a software developer.
 * [Android Developer's Blog](https://android-developers.googleblog.com/2015/06/more-material-design-with-topeka-for_16.html)
 * [Kotlin for Android Developers by Antonio Leiva - Book](https://antonioleiva.com/kotlin-android-developers-book/)
 * [Kotlin for Android Developers by Antonio Leiva - Repository](https://github.com/antoniolg/Kotlin-for-Android-Developers)
+
+### Useful Guides
+
+* [thoughtbot playbook](https://thoughtbot.com/playbook)
