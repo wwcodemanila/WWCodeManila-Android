@@ -5,6 +5,11 @@ Reading software documentation is part of being a software developer.
 * [Android Developer Guides](https://developer.android.com/guide/)
 * [Kotlin](http://kotlinlang.org/docs/reference/)
 
+## Style Guides
+
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Android Kotlin Style Guide](https://android.github.io/kotlin-guides/style.html)
+
 ### References
 
 * [Kotlin Playground](https://try.kotlinlang.org)
