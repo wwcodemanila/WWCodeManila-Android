@@ -47,7 +47,8 @@
 - Database :soon:
   - SQLite
 
-- Best Practices :soon:
+- Best Practices
+  - [Android Application Secure Design/ Secure Coding Guidebook](http://www.jssec.org/dl/android_securecoding_en.pdf)
 
 - Release and Deployment :soon:
 
