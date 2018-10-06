@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="250dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/birthMonth_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Birth Month"
+                android:textColor="#c17900"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/letter_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First name initial"
+                android:textColor="#c17900"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/number_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone no.'s last digit"
+                android:textColor="#c17900"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="250dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/generate_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/cheers"
+            android:textColor="#fbc02d"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/greetings_textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="#E59866"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/beerName_textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="#9b0000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/octoberfest_banner" />
+
+</RelativeLayout>
