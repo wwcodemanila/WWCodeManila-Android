@@ -1,5 +1,3 @@
-#
-
 - Getting Started
   - [Welcome!](README.md)
   - [Installation](getting_started/install_tools.md)
