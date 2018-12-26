@@ -1,3 +1,5 @@
+#
+
 - Getting Started
   - [Welcome!](README.md)
   - [Installation](getting_started/install_tools.md)
@@ -8,7 +10,7 @@
 
 - Sharing Your Work
   - Let's Git Started
-    - [Pro Git by Scott Chacon and Ben Straub ](https://git-scm.com/book/en/v2)
+    - [Pro Git by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2)
   - Git Graphical Interface
     - [Tortoise](https://code.google.com/p/tortoisegit)
     - [Source Tree](https://www.sourcetreeapp.com)
@@ -21,7 +23,7 @@
   - [If expression](kotlin/if_expression.md)
   - [When expression](kotlin/when_expression.md)
 
-- Android Studio 
+- Android Studio
   - [Folder Structure](android/folder_structure.md)
 - Hello, Android
   - API Version
@@ -30,7 +32,7 @@
     - [Relative](android/relative_layout.md)
     - Constraint
     - [Views](android/view.md)
-  - Text 
+  - Text
     - [TextView](android/textview.md)
   - Controls
     - [Buttons](android/button.md)
@@ -49,6 +51,8 @@
 
 - Best Practices
   - [Android Application Secure Design/ Secure Coding Guidebook](http://www.jssec.org/dl/android_securecoding_en.pdf)
+  - [RFC 8252 - OAuth 2.0 for Native Apps](https://tools.ietf.org/html/rfc8252)
+  - [AppAuth for Android by openid](https://openid.github.io/AppAuth-Android/)
 
 - Release and Deployment :soon:
 
@@ -70,7 +74,7 @@
   - Debugging
   - Game Development
 
-- Projects 
+- Projects
   - [Court Counter App](projects/Court-Counter-Android-App/README.md)
   - Todo App
   - Food App
@@ -85,4 +89,3 @@
 - Resources
   - [Android Conventions](resources/android_conventions.md)
   - [References](resources/references.md)
-
