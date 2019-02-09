@@ -25,7 +25,7 @@
   - [Folder Structure](android/folder_structure.md)
 - Hello, Android
   - API Version
-  - [Layout](discussion/layout.md)
+  - [Layout](discussions/layout.md)
   - Text
     - [TextView](android/textview.md)
   - Controls
