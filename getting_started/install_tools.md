@@ -1,4 +1,4 @@
-# Install Android Studio {docsify-igit gnore}
+# Install Android Studio {docsify-git gnore}
 
 Setting up Android Studio takes just a few clicks. Here's the installation guide from [Developer's site](https://developer.android.com/studio/install).
 
