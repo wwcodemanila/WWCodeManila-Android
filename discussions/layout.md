@@ -22,7 +22,9 @@ Reference: [Relative Layout](https://developer.android.com/guide/topics/ui/layou
 
 ## Constraint Layout
 
-##Views
+**Constraint Layout** 
+
+## Views
 
 **View** is a class that represents the basic building block for user interface components. 
 A View occupies a rectangular area on the screen and is responsible for drawing and event handling. 
