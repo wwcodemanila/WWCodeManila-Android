@@ -36,7 +36,7 @@ board](https://www.meetup.com/Women-Who-Code-Manila/messages/boards/forum/242919
 
 ## Relevant links
 
-- [Gitter Chat](https://gitter.im/WWCodeManila/Android): Interact with the community. You can share something about Ruby, or ask help if you're stuck on a problem.
+- [Gitter Chat](https://gitter.im/WWCodeManila/Android): Interact with the community. You can share something about Android, or ask help if you're stuck on a problem.
 - [Github](https://github.com/wwcodemanila/WWCodeManila-Android): View study group code
 - [Meetup](https://meetup.com/Women-Who-Code-Manila): Get updated with the upcoming study group and other event schedules.
 - [Facebook](https://facebook.com/wwcodemanila): Get updated about what's happening with the community.
