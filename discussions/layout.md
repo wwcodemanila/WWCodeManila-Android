@@ -7,7 +7,6 @@ You can specify the layout direction with the *android:orientation attribute*.
 ![Linear Layout](../_media/media_android/android-linear-layout.png)
 
 
-
 Reference: [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear) 
 
 ## Relative Layout
