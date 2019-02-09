@@ -25,11 +25,7 @@
   - [Folder Structure](android/folder_structure.md)
 - Hello, Android
   - API Version
-  - Layout
-    - [Linear](android/linear_layout.md)
-    - [Relative](android/relative_layout.md)
-    - Constraint
-    - [Views](android/view.md)
+  - [Layout](discussion/layout.md)
   - Text
     - [TextView](android/textview.md)
   - Controls
