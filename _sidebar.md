@@ -14,15 +14,13 @@
     - [Source Tree](https://www.sourcetreeapp.com)
     - [Tower](http://www.git-tower.com/)
 
-- Hello, Kotlin
-  - [About Kotlin](kotlin/about_kotlin.md)
-  - [Null Safety](kotlin/null_safety.md)
-  - [String Template](kotlin/string_template.md)
-  - [If expression](kotlin/if_expression.md)
-  - [When expression](kotlin/when_expression.md)
-
 - Android Studio
   - [Folder Structure](android/folder_structure.md)
+
+- Hello, Kotlin
+  - [About Kotlin](kotlin/about_kotlin.md)
+  - [Kotlin Topics](kotlin/kotlin_topics/kotlin_topics.md)
+
 - Hello, Android
   - API Version
   - [Layout](discussion/layout.md)
