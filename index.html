@@ -25,9 +25,15 @@
         // Page elements
         coverpage: '_coverpage.html',
         loadSidebar: true,
+        loadSidebar: 'summary.md',
         autoHeader: true,
         maxLevel: 4,
         subMaxLevel: 2,
+        //auto collapse sidebar
+        alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+      },
+      subMaxLevel: 3,
         // Show when last updated
         formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{MM}',
         plugins: [
@@ -46,5 +52,9 @@
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
     <script src="//unpkg.com/prismjs/components/prism-ruby.min.js"></script>
     <script src="//unpkg.com/docsify-copy-code"></script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+    
   </body>
 </html>
