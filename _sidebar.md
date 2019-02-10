@@ -10,9 +10,9 @@
   - Let's Git Started
     - [Pro Git by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2)
   - Git Graphical Interface
-    - [Tortoise](https://code.google.com/p/tortoisegit)
-    - [Source Tree](https://www.sourcetreeapp.com)
-    - [Tower](http://www.git-tower.com/)
+    1. [Tortoise](https://code.google.com/p/tortoisegit)
+    2. [Source Tree](https://www.sourcetreeapp.com)
+    3. [Tower](http://www.git-tower.com/)
 
 - Hello, Kotlin
   - [About Kotlin](kotlin/about_kotlin.md)
