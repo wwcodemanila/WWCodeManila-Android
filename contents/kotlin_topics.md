@@ -7,4 +7,4 @@
 - [When expression](kotlin/when_expression.md)
 
 
-# Advance Kotlin
+# Advanced Kotlin

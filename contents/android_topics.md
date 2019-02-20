@@ -1,7 +1,7 @@
   
 ## Android Basics
 
-- [Layout](discussions/layout.md)
+- [Layout](discussions/layouts.md)
 - [TextView](android/textview.md)
 - Controls
     - [Buttons](android/button.md)
@@ -10,9 +10,9 @@
     - Camera
     - Gallery
     - Contacts
+- [Event Listeners](android/event_listener.md)
+    - [OnClickListener](android/extensions_onclicklistener.md)
 - Manifest
     - Permissions
 
-## Advance Android
-- [Event Listeners](android/event_listener.md)
-    - [OnClickListener](android/extensions_onclicklistener.md)
+## Advanced Android
