@@ -12,8 +12,8 @@
   - Advanced Android
 
 - Hello, Kotlin
-  - [Kotlin Basic](kotlin/about_kotlin.md)
-  - [Kotlin Basic](contents/kotlin_basic_topics.md)
+  - [About Kotlin](kotlin/about_kotlin.md)
+  - [Basic Kotlin](contents/kotlin_basic_topics.md)
   - Advanced Kotlin
 
 - [Database](contents/database.md) 
