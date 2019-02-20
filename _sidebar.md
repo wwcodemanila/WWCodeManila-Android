@@ -8,11 +8,11 @@
 
 - Hello, Android
   - About Android Apps
-  - [Android Basic](contents/android_basic_topics.md)
+  - [Basic Android](contents/android_basic_topics.md)
   - Advanced Android
 
 - Hello, Kotlin
-  - [About Kotlin](kotlin/about_kotlin.md)
+  - [Kotlin Basic](kotlin/about_kotlin.md)
   - [Kotlin Basic](contents/kotlin_basic_topics.md)
   - Advanced Kotlin
 
