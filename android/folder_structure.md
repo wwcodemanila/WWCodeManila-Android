@@ -1,5 +1,5 @@
 
-# Android Studio Folder Structure
+## Android Studio Folder Structure
 
 ## app folder {docsify-ignore}
 
