@@ -10,4 +10,3 @@
   - [Let's Git Started](starter-kit/getting_started/git_started.md)
   - [Basic Concepts](starter-kit/getting_started/basic_concepts.md)
     - [About Kotlin](starter-kit/getting_started/about_kotlin.md)
-    - [About Android](starter-kit/getting_started/about_android.md)
