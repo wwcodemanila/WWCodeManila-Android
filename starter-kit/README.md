@@ -1,6 +1,4 @@
-# Women Who Code Manila
-
-## Android App Development Study Group
+# Women Who Code Manila - Android App Development
 
 For beginners, we will learn the basic concepts of
 programming using Java and Kotlin.
