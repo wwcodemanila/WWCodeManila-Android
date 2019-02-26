@@ -1,4 +1,7 @@
-# Install Android Studio {docsify-ignore}
+
+# Install Android Studio
+
+!> Android Studio Setup, Installation and Troubleshooting - [google drive](https://docs.google.com/document/d/1TxVa_37UBr9K3fCiSUmHb8TYKUxUN3xbkWfwyCAF-bA/edit)
 
 Setting up Android Studio takes just a few clicks. Here's the installation guide from [Developer's site](https://developer.android.com/studio/install).
 

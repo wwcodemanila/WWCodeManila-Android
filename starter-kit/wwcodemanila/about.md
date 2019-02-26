@@ -1,6 +1,6 @@
 [Women Who Code](https://www.womenwhocode.com) is a global non-profit organization dedicated to inspiring women to excel in technology careers. We work to support this generation of technology professionals in being and becoming leaders and role models in the tech industry.
 
-![Women Who Code map](../_media/wwcode_map.png)
+![Women Who Code map](../../_media/wwcode_map.png)
 
 ## Our Mission
 
