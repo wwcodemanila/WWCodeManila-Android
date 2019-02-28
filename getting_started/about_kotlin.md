@@ -1,4 +1,3 @@
-
 # About Kotlin
 
 - A JVM language (compiles to Java bytecode; runs on the Java Virtual Machine)

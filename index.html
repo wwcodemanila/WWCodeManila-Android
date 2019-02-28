@@ -2,45 +2,56 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Women Who Code Manila Android App Development Study Group</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="UTF-8">
-    <link rel="icon" href="_media/favicon.png" type="image/x-icon"/>
+    <link rel="icon" href="_media/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="_stylesheets/print.css">
     <link rel="stylesheet" href="_stylesheets/coverpage.css">
-  </head>
-  <body>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#/">Home</a>
+        <a href="#/README">Starter Kit</a>
+        <a href="#/docs/">Deep Dive</a>
+    </nav>
     <div id="app"></div>
     <script>
-      window.$docsify = {
-        name: 'Android App Development Study Group',
-        // Women Who Code teal
-        themeColor: '#007a7b',
-        // Automatically scroll to top on page changes
-        auto2top: true,
-        // Page elements
-        coverpage: '_coverpage.html',
-        loadSidebar: true,
-        subMaxLevel: 3,
-        autoHeader: true,
-        maxLevel: 4,
-        // Show when last updated
-        formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{MM}',
-        plugins: [
-          // Show when last updated
-          function(hook, vm) {
-            hook.beforeEach(function (html) {
-              return html
-                + '\n----\n'
-                + '<strong>Document last modified</strong>: {docsify-updated}'
-            })
-          }
-        ]
-      }
+        window.$docsify = {
+            name: 'Android App Development Study Group',
+            // Women Who Code teal
+            themeColor: '#007a7b',
+            // Automatically scroll to top on page changes
+            auto2top: true,
+            // Page elements
+            coverpage: '_coverpage.html',
+            loadSidebar: true,
+            subMaxLevel: 3,
+            autoHeader: true,
+            maxLevel: 4,
+            alias: {
+                '/.*/_sidebar.md/': '/_sidebar.md',
+            },
+            // Show when last updated
+            formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{MM}',
+            plugins: [
+                // Show when last updated
+                function (hook, vm) {
+                    hook.beforeEach(function (html) {
+                        return html
+                            + '\n----\n'
+                            + '<strong>Document last modified</strong>: {docsify-updated}'
+                    })
+                }
+            ]
+        }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
@@ -49,10 +60,11 @@
     </script>
 
     <script>
-      ((window.gitter = {}).chat = {}).options = {
-        room: 'WWCodeManila/Android'
-      };
+            ((window.gitter = {}).chat = {}).options = {
+                room: 'WWCodeManila/Android'
+            };
     </script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-  </body>
+</body>
+
 </html>
