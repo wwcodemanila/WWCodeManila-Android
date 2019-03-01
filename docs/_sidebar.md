@@ -1,9 +1,9 @@
 
-- [Database](contents/database.md)
+- [Database](docs/database.md)
 
-- [Best Practices](contents/best_practices.md)
+- [Best Practices](docs/best_practices.md)
 
-- [Libraries](contents/libraries.md)
+- [Libraries](docs/libraries.md)
 
 - Release and Deployment
 
@@ -11,11 +11,11 @@
   - Debugging
   - Game Development
 
-- [Projects](contents/projects.md)
+- [Projects](docs/projects.md)
 
 - Developer Tools
   - [Octotree - Codetree for Github](https://github.com/buunguyen/octotree)
 
 - Resources
-  - [Android Conventions](resources/android_conventions.md)
-  - [References](resources/references.md)
+  - [Android Conventions](docs/resources/android_conventions.md)
+  - [References](docs/resources/references.md)
