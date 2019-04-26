@@ -3,6 +3,7 @@
 Reading software documentation is part of being a software developer.
 
 * [Android Developer Guides](https://developer.android.com/guide/)
+  * [Testing](https://developer.android.com/training/testing)
 * [Kotlin](http://kotlinlang.org/docs/reference/)
 
 ## Style Guides

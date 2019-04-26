@@ -1,7 +1,9 @@
 
 - [Database](docs/database.md)
 
-- [Best Practices](docs/best_practices.md)
+- Best Practices
+  - [Secure Coding](docs/resources/secure_coding.md)
+  - [Testing Tools](docs/resources/testing_tools.md)
 
 - [Libraries](docs/libraries.md)
 
